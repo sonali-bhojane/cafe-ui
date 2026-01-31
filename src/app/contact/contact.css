@@ -1,0 +1,64 @@
+/* Whole page background */
+.body {
+  background-color: #f7f3ee;
+}
+
+/* Left Form Box */
+.contact-form {
+  background: #fff;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.contact-form h3 {
+  color: #6f4e37;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.contact-form .form-control {
+  border-radius: 12px;
+  border: 1px solid #e0d5cc;
+}
+
+/* Send Button */
+.send-btn {
+  background: linear-gradient(135deg, #f4a261, #f8c8dc);
+  color: #3e2723;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 12px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.send-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(248, 200, 220, 0.6);
+}
+
+/* Right Info Box */
+.info-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* Individual Info Section */
+.info-item {
+  padding-left: 15px;
+  border-left: 4px solid #f4a261;
+  margin-bottom: 25px;
+}
+
+.info-item h5 {
+  color: #6f4e37;
+  margin-bottom: 5px;
+}
+
+.info-item p {
+  color: #7a7a7a;
+  margin: 0;
+}

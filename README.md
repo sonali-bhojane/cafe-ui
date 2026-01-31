@@ -1,59 +1,46 @@
-# CafeUi
+# Cafe UI Website
+This is a simple and responsive **Cafe Website UI** created using **HTML and CSS**.  
+The project is beginner-friendly and focuses on clean layout, basic styling, and page navigation.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.3.
+## Features
+- Home Page
+- About Page
+- Contact Page
+- menu page
+- Feedback section
 
-## Development server
+## Technologies Used
+- HTML
+- CSS
 
-To start a local development server, run:
+## 🎯 Purpose of This Project
+- Practice HTML & CSS
+- Understand website structure
+- Learn basic frontend development
+- Create a real-world UI project
 
-```bash
-ng serve
-```
+## How to Run the Project
+This is an Angular-based Cafe UI application.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Prerequisites
+- Node.js installed
+- Angular CLI installed
 
-## Code scaffolding
+### Steps to Run
+1. Clone the repository
+   git clone https://github.com/your-username/cafe-ui.git
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. Go to the project folder
+   cd cafe-ui
 
-```bash
-ng generate component component-name
-```
+3. Install dependencies
+   npm install
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+4. Run the Angular development server
+   ng serve
 
-```bash
-ng generate --help
-```
+5. Open the browser and visit
+   http://localhost:4200
 
-## Building
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Created by "Sonali Bhojane"

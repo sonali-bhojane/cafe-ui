@@ -1,0 +1,76 @@
+<div class="hero-section">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-6 hero-content">
+        <h1 class="hero-title">Café Aroma</h1>
+        <p class="hero-text">
+          Welcome to Cafe Aroma, where every cup tells a story and<br>
+          every sip sparks joy. Freshly brewed coffee, cozy vibes &<br> handcrafted moments.🌸☕"
+        </p>
+        <a routerLink="/menu" class="btn hero-btn me-3">View Menu</a>
+        <a routerLink="/contact"class="btn hero-btn"><i class="fas fa-map-marker-alt me-2"></i>Find Us</a>
+      </div>
+      <div class="col-md-6 hero-images">
+        <div class="image-large">
+          <img src="images/caffee.jpg" alt="Coffee">
+        </div>
+        <div class="image-small-wrapper">
+          <img src="images/hero1.jpg" alt="Cafe Interior">
+          <img src="images/hero2.jpg" alt="Coffee Art">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="text-center my-4">Our Best Sellers</h2>
+<div class="row menu-row">
+  <div class="col-md-2" *ngFor="let item of featuredItems">
+    <div class="card mb-3">
+      <img [src]="item.image" class="menu-img mb-2" [alt]="item.name">
+      <div class="card-body">
+        <h5 class="card-title">{{ item.name }}</h5>
+        <p class="card-text">{{ item.description }}</p>
+        <p class="price">₹{{ item.price }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="special-section text-center py-5">
+  <h2 class="special-title">WHAT MAKES US DIFFERENT & SPECIAL</h2>
+  <p class="special-subtitle">
+    We're not your averaeg cafe.☕here's what makes us special
+  </p>
+</div>
+
+<div class="row text-center my-5">
+  <div class="col-md-3">
+    <i class="fas fa-coffee fa-3x mb-2"></i>
+    <h5>Fresh Coffee</h5>
+    <p>Every cup brewed to perfection.</p>
+  </div>
+
+  <div class="col-md-3">
+    <i class="fas fa-leaf fa-3x mb-2"></i>
+    <h5>Quality Ingredients</h5>
+    <p>Only the best for our customers.</p>
+  </div>
+  <div class="col-md-3">
+    <i class="fas fa-chair fa-3x mb-2"></i>
+    <h5>Cozy Ambiance</h5>
+    <p>Relax and enjoy your coffee.</p>
+  </div>
+  <div class="col-md-3">
+    <i class="fas fa-smile fa-3x mb-2"></i>
+    <h5>Friendly Staff</h5>
+    <p>Service with a smile.</p>
+  </div>
+</div>
+
+<footer class="bg-dark text-white text-center py-3">
+  <p>© 2026 Café Aroma. All rights reserved.</p>
+  <p>📍 Pune, Maharashtra | 📞 +91 1234567890</p>
+</footer>
+
+
